@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 	<meta charset="utf-8">
+	<title>Mi perfil</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+
+<body>
+
+	<!-- Funciona asi, tenes que tener una div.container -->
+	<div class="container">
+		<!-- dentro una div.row = fila -->
+		<div class="row">
+			<!-- las filas o row se pueden dividir en 12 columnas, para dividir se usa la clase 
+			.col-xx-nn, asi -->
+			<!-- supongamos que quiero 2 columnas del mismo tamaño -->
+			<div class="col-md-5">
+				<!-- aqui va el contenido de la columna 1
+				entonces aca tenes que colocar la parte donde esta tu foto -->
+
+				    <div class="thumbnail" >
+				      <img class="img-circle" src="img/perfil.jpg" alt="..." width="180" heigth="180">
+				      <div class="caption">
+				        <big>Jose Quiñonez</big> <small>Tecnico informatico</small>
+				        <p class="text-center">Puedes saber mas sobre mi y sobre lo que 
+				        hago visitando mis redes sociales </p>
+				        
+				        <table align="center">
+				        	<tr>
+				        		<td>
+				        			<a href="https://www.facebook.com" target="blank"> <img  alt="Sigueme en facebook" height="55" src="img/facebook2.png" title="sigueme en facebook" width="55"></a>
+				        		</td>
+								<td>
+				        			<a href="https://www.instagram.com/jsmrtn" target="blank"> <img  alt="Sigueme en Instagram" height="55" src="img/instagram.png" title="sigueme en Instagram" width="55"></a>
+				        		</td>
+								<td>
+				        			<a href="https://www.twitter.com/@Jsmrtnq" target="blank"> <img  alt="Sigueme en twitter" height="55" src="img/twitter.png" title="sigueme en twitter" width="55"></a>
+				        		</td>
+								<td>
+				        			<a href="https://www.youtube.com" target="blank"> <img  alt="Sigueme en youtube" height="55" src="img/youtube.png" title="sigueme en youtube" width="55"></a>
+				        		</td>
+				        	</tr>
+				        </table>
+				        </div>
+				    </div>	
+			</div> <!-- columna 1 -->
+
+			<div class="col-md-7">
+					<p class="text-left"><big>Bienvenido!!</big> <small>Soy Jose Quiñonez</small>
+								        <p class="text-left">Soy Tecnico, arreglo celulares,cambios de piezas, y actualizacion de software en gral </p></p>
+				<!-- aqui va el contenido de la columna 2
+				y aca la otra parte -->	
+									<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">	
+								  <div class="panel panel-default">
+								    <div class="panel-heading" role="tab" id="headingOne">
+								      <h4 class="panel-title">
+								        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								        <span class="glyphicon glyphicon-info-sign"></span>
+								          Simplemente yo!
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+								      <div class="panel-body">
+								        Nombre: Jose Martin <br>	
+								        Apellido: Quiñonez Amarilla <br>
+								        C.I.N: 5010837 <br>
+								        F.N.: 21/09/1996
+								      </div>
+								    </div>
+								  </div>
+								  <div class="panel panel-default">
+								    <div class="panel-heading" role="tab" id="headingTwo">
+								      <h4 class="panel-title">
+								        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								        <span class="glyphicon glyphicon-heart"></span>
+								          Lo que me gusta
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								      <div class="panel-body">
+								        Me gusta jugar futbol y tambien videojuegos. <br>
+								        Tambien me gusta salir a disfrutar con la familia y amigos
+								        Me gusta viajar.
+								      </div>
+								    </div>
+								  </div>
+								  <div class="panel panel-default">
+								    <div class="panel-heading" role="tab" id="headingThree">
+								      <h4 class="panel-title">
+								        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								        <span class="glyphicon glyphicon-education"></span>
+								          Materias que me gustan
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								      <div class="panel-body">
+								      Taller
+								      <br>
+								      Lenguaje 
+								      <br>
+								      Informatica
+								      </div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+
+			</div> <!-- columna 2 -->
+		</div>
+	</div>
+
+
+	
+
+
+
+	
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/controlador.js"></script> 
+
+</body>
+</html>

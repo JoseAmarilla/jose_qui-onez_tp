@@ -1,0 +1,62 @@
+body{
+background-image: url(../img/fondopefil2.jpg);
+opacity: 0.9;
+background-position: top;
+background-size: 100%;
+background-repeat: no-repeat;
+font-size: 16px;
+font-family: 'New Rocker', cursive;;
+}
+.panel-body{
+text-align: left;
+}
+.img-circle{
+border-radius: 100px 100px 100px 100px;
+}
+.icon{
+width: 30px;
+height: 30px;
+}
+big{
+font-family: 'Pangolin', cursive;;
+}
+small{
+font-family:  'Oswald', sans-serif;
+}
+p{
+color: white;
+font-family:  'Oswald', sans-serif;	
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+big{
+	font-size:1,5em;
+	color:white;
+	text-shadow:2px 0px 5px black;
+}
+small{
+	font-size:1,5em;
+	color:white;
+	text-shadow:2px 0px 5px black;
+}
+.container{
+	text-align: center;
+	margin-top:5%;
+	padding-top:2%;
+
+	border-radius:5px;
+	padding-right:2%;
+}
+.thumbnail{
+background-image: url(../img/fondoperfil3.jpg);
+border-radius: 4px;
+}
+.img-circle{
+opacity: 0.8;
+}
+.col-md-7{
+	background-image: url(../img/fondoperfil3.jpg);
+
+}
